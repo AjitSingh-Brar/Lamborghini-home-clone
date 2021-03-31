@@ -5,6 +5,8 @@ import "./App.css";
 import { useDispatch, useSelector } from "react-redux";
 import { selectName, setName } from "./features/counter/userSlice";
 import Header from "./components/Header";
+
+import BackgroundDiv from "./components/BackgroundDiv";
 // import selectName from "./features/counter/userSlice";
 
 function App() {
@@ -27,6 +29,8 @@ function App() {
         <h1>{name}</h1> */}
 
       <Header />
+      {/* <BodyImage /> */}
+      <BackgroundDiv />
     </div>
   );
 }

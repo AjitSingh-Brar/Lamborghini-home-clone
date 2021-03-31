@@ -1,0 +1,185 @@
+.backgroundDiv {
+  display: flex;
+  flex: 1;
+}
+.backgroundDiv__image {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+  background: url(https://www.hdcarwallpapers.com/walls/mansory_lamborghini_urus_2020_5k-HD.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  animation: slide 10s infinite;
+  animation-delay: 15s;
+}
+
+@keyframes slide {
+  0% {
+    background: url(https://www.hdcarwallpapers.com/walls/mansory_lamborghini_urus_2020_5k-HD.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-delay: 20s;
+  }
+  33% {
+    background: url(https://images.wheels.ca/wp-content/uploads/2019/02/Lamborghini-Hurac%C3%A1n-EVO-Spyder-25.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-delay: 20s;
+  }
+  67% {
+    background: url(https://s.blogcdn.com/slideshows/images/slides/742/645/8/S7426458/slug/l/2019-lamborghini-aventador-svj-34-1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    animation-delay: 20s;
+  }
+}
+
+.backgroundDiv__image > h1 {
+  display: flex;
+  font-size: 100px;
+  text-transform: uppercase;
+  color: white;
+  position: absolute;
+  top: 32%;
+  left: 8%;
+  width: 40%;
+  line-height: 90px;
+}
+
+.backgroundDiv__image > h2 {
+  font-size: 50px;
+  font-weight: 400;
+  text-transform: uppercase;
+  color: white;
+  position: relative;
+  top: 25%;
+  left: 8%;
+}
+
+.backgroundDiv__hexagon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 65%;
+  left: 11%;
+  width: 72px;
+  height: 40px;
+  border: 2px solid transparent;
+  list-style: 80px;
+}
+
+.backgroundDiv__hexagon > .MuiSvgIcon-root {
+  color: white;
+  font-size: 20px;
+}
+
+.backgroundDiv__hexagon:before,
+.backgroundDiv__hexagon:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  border: 2px solid transparent;
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+
+.backgroundDiv__hexagon:hover {
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.backgroundDiv__hexagon:hover:before {
+  transform: rotate(120deg);
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+.backgroundDiv__hexagon:hover:after {
+  transform: rotate(-120deg);
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+@media only screen and (max-width: 1026px) {
+  .backgroundDiv__image > h1 {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: white;
+    position: absolute;
+    top: 32%;
+    left: 6%;
+    flex: 0.1;
+    line-height: 50px;
+    flex-wrap: wrap;
+  }
+
+  .backgroundDiv__image > h2 {
+    font-size: 25px;
+    font-weight: 400;
+    text-transform: uppercase;
+    color: white;
+    position: relative;
+    top: 28%;
+    left: 6%;
+  }
+
+  .backgroundDiv__hexagon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 55%;
+    right: 30%;
+    width: 72px;
+    height: 40px;
+    border: 2px solid transparent;
+    list-style: 80px;
+  }
+
+  .backgroundDiv__hexagon > .MuiSvgIcon-root {
+    color: white;
+    font-size: 20px;
+  }
+
+  .backgroundDiv__hexagon:before,
+  .backgroundDiv__hexagon:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    border: 2px solid transparent;
+    transform: rotate(0deg);
+    transition: 0.5s;
+  }
+
+  .backgroundDiv__hexagon:hover {
+    border: 2px solid #fff;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+
+  .backgroundDiv__hexagon:hover:before {
+    transform: rotate(120deg);
+    border: 2px solid #fff;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+  .backgroundDiv__hexagon:hover:after {
+    transform: rotate(-120deg);
+    border: 2px solid #fff;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+}
