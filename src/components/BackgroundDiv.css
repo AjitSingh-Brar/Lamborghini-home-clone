@@ -9,7 +9,7 @@
   background: url(https://www.hdcarwallpapers.com/walls/mansory_lamborghini_urus_2020_5k-HD.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  animation: slide 10s infinite;
+  animation: slide 20s infinite;
   animation-delay: 15s;
 }
 
@@ -109,6 +109,7 @@
 }
 
 @media only screen and (max-width: 1026px) {
+  /*  */
   .backgroundDiv__image > h1 {
     font-size: 50px;
     text-transform: uppercase;

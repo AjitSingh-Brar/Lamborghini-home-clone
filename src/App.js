@@ -7,6 +7,7 @@ import { selectName, setName } from "./features/counter/userSlice";
 import Header from "./components/Header";
 
 import BackgroundDiv from "./components/BackgroundDiv";
+import Model from "./components/Model";
 // import selectName from "./features/counter/userSlice";
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Header />
       {/* <BodyImage /> */}
       <BackgroundDiv />
+      <Model />
     </div>
   );
 }

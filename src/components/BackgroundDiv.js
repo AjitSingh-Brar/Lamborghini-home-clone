@@ -9,8 +9,7 @@ function BackgroundDiv() {
         <h2>Unlock Graphite Capsule</h2>
         <h1>Unlock any road</h1>
         <div className="backgroundDiv__hexagon">
-          {" "}
-          <ArrowForwardIosIcon />{" "}
+          <ArrowForwardIosIcon />
         </div>
       </div>
     </div>

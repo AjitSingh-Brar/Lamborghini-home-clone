@@ -1,0 +1,327 @@
+.model {
+  display: flex;
+  width: 98.9vw;
+  height: 100vh;
+  background: url(https://www.lambonb.com/static/dealer-12703/images/HuracanEvo_header.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+/* parallelogram background */
+.model__parallelogramDiv {
+  display: flex;
+  position: absolute;
+  width: 70vw;
+  height: 100vh;
+  right: 50%;
+  transform: skew(150deg);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+/* parallelogram background */
+.model__parallelogramSide {
+  display: flex;
+  position: absolute;
+  right: 75%;
+  width: 60vw;
+  height: 100vh;
+  transform: skew(150deg);
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.model__top {
+  display: flex;
+  position: absolute;
+  top: 950px;
+  left: 10%;
+  transform: rotate(0deg);
+}
+
+.model__top > h2 {
+  color: #fff;
+  font-weight: 500;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+/* Hexagon icons css */
+.model__hexagonForeward .MuiSvgIcon-root {
+  color: #fff;
+}
+.model__hexagonBackward > .MuiSvgIcon-root {
+  color: #fff;
+  padding-left: 20%;
+}
+
+.model__hexagonForeward:hover .MuiSvgIcon-root {
+  color: black;
+}
+
+.model__hexagonBackward:hover .MuiSvgIcon-root {
+  color: black;
+  padding-left: 10%;
+  font-weight: 100;
+}
+
+/* Backword Hexagon icon */
+.model__hexagonBackward {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 170%;
+  left: 25%;
+  width: 45px;
+  height: 25px;
+  border: 2px solid transparent;
+  list-style: 80px;
+}
+
+.model__hexagonBackward:before,
+.model__hexagonBackward:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  border: 2px solid white;
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+
+.model__hexagonBackward {
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.model__hexagonBackward:before {
+  transform: rotate(120deg);
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+.model__hexagonBackward:after {
+  transform: rotate(-120deg);
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.model__hexagonBackward:hover,
+.model__hexagonBackward:hover:before,
+.model__hexagonBackward:hover:after {
+  position: absolute;
+  z-index: -1;
+  background: #fff;
+}
+
+/* Foreward Hexagon icon */
+
+.model__hexagonForeward {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 170%;
+  left: 70%;
+  width: 45px;
+  height: 25px;
+  border: 2px solid transparent;
+  list-style: 80px;
+}
+
+.model__hexagonForeward:before,
+.model__hexagonForeward:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  border: 2px solid transparent;
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+
+.model__hexagonForeward {
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.model__hexagonForeward:before {
+  transform: rotate(120deg);
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+.model__hexagonForeward:after {
+  transform: rotate(-120deg);
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.model__hexagonForeward:hover,
+.model__hexagonForeward:hover:before,
+.model__hexagonForeward:hover:after {
+  position: absolute;
+  z-index: -1;
+  background: #fff;
+}
+
+.model__middle > h1 {
+  font-size: 100px;
+  color: white;
+  position: absolute;
+  top: 150%;
+  left: 10%;
+}
+.model__middle > h2 {
+  font-size: 35px;
+  font-weight: 600;
+  color: white;
+  position: absolute;
+  top: 168%;
+  left: 10%;
+  text-transform: word-wrap;
+}
+
+/* Add Hexagon Icon */
+
+.model__bottomHexagon > .MuiSvgIcon-root {
+  color: #fff;
+}
+
+.model__bottomHexagon:hover .MuiSvgIcon-root {
+  position: absolute;
+  z-index: 1;
+  color: black;
+}
+
+.model__bottomHexagon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 188%;
+  left: 12%;
+  width: 45px;
+  height: 25px;
+  border: 2px solid transparent;
+  list-style: 80px;
+}
+
+.model__bottomHexagon:before,
+.model__bottomHexagon:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  border: 2px solid white;
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+
+.model__bottomHexagon {
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.model__bottomHexagon:before {
+  transform: rotate(120deg);
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+.model__bottomHexagon:after {
+  transform: rotate(-120deg);
+  border: 2px solid #fff;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.model__bottomHexagon:hover,
+.model__bottomHexagon:hover:before,
+.model__bottomHexagon:hover:after {
+  position: absolute;
+  background: #fff;
+}
+
+.model__bottom > h3 {
+  color: white;
+  position: absolute;
+  top: 185%;
+  left: 15%;
+  font-weight: 100;
+  width: 90px;
+}
+
+/* responsive design through media queries */
+
+@media only screen and (max-width: 1026px) {
+  .model {
+    display: flex;
+    width: 97.8vw;
+    height: 100vh;
+    background: url(https://www.lambonb.com/static/dealer-12703/images/HuracanEvo_header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  .model__parallelogramDiv {
+    display: flex;
+    position: absolute;
+    width: 82vw;
+    height: 100vh;
+    right: 50%;
+    transform: skew(150deg);
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .model__parallelogramSide {
+    display: flex;
+    position: absolute;
+    right: 76%;
+    width: 55vw;
+    height: 100vh;
+    transform: skew(150deg);
+    background: rgba(0, 0, 0, 0.5);
+  }
+
+  .model__middle > h1 {
+    font-size: 80px;
+    color: white;
+    position: absolute;
+    top: 150%;
+    left: 10%;
+  }
+  .model__middle > h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: white;
+    position: absolute;
+    top: 165%;
+    left: 10%;
+    text-transform: word-wrap;
+  }
+  .model__bottom > h3 {
+    color: white;
+    position: absolute;
+    top: 185%;
+    left: 18.5%;
+    font-weight: 100;
+    width: 90px;
+  }
+}
