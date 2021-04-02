@@ -37,6 +37,7 @@
 .backgroundDiv__image > h1 {
   display: flex;
   font-size: 100px;
+  font-family: Roboto, "Helvetica Neue", Arial;
   text-transform: uppercase;
   color: white;
   position: absolute;
@@ -49,6 +50,7 @@
 .backgroundDiv__image > h2 {
   font-size: 50px;
   font-weight: 400;
+  font-family: Roboto, "Helvetica Neue", Arial;
   text-transform: uppercase;
   color: white;
   position: relative;
@@ -112,6 +114,7 @@
   /*  */
   .backgroundDiv__image > h1 {
     font-size: 50px;
+    font-family: Roboto, "Helvetica Neue", Arial;
     text-transform: uppercase;
     color: white;
     position: absolute;
@@ -125,6 +128,7 @@
   .backgroundDiv__image > h2 {
     font-size: 25px;
     font-weight: 400;
+    font-family: Roboto, "Helvetica Neue", Arial;
     text-transform: uppercase;
     color: white;
     position: relative;

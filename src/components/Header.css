@@ -28,7 +28,7 @@
 }
 
 .header__left > p > a {
-  font-family: Arial;
+  font-family: Roboto, "Helvetica Neue", Arial;
   text-transform: uppercase;
   text-decoration: none;
   color: #e6e4e4;
@@ -50,7 +50,7 @@
   text-transform: uppercase;
   text-decoration: none;
   color: #e6e4e4;
-  font-family: Arial;
+  font-family: Roboto, "Helvetica Neue", Arial;
   padding-top: 10px;
 }
 

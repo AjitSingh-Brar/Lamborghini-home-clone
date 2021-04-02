@@ -10,6 +10,7 @@ import BackgroundDiv from "./components/BackgroundDiv";
 import Model from "./components/Model";
 import Configurator from "./components/Configurator";
 import PopupInfo from "./components/PopupInfo";
+import Dealer from "./components/Dealer";
 // import selectName from "./features/counter/userSlice";
 
 function App() {
@@ -36,6 +37,7 @@ function App() {
       <BackgroundDiv />
       <Model />
       <Configurator />
+      <Dealer />
       <PopupInfo />
     </div>
   );
