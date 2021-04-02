@@ -1,0 +1,235 @@
+.configurator {
+  display: flex;
+  width: 98.9vw;
+  height: 100vh;
+  background: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/aventador/svj/11_17/ar_aventador_svj_m.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.configurator__top > h2 {
+  color: #181818;
+  font-size: 32px;
+  font-weight: 600;
+  position: relative;
+  top: 30%;
+  left: 11%;
+}
+
+.configurator__top > h1 {
+  color: #181818;
+  font-size: 75px;
+  position: relative;
+  top: 30%;
+  left: 10%;
+  width: 60%;
+  line-height: 75px;
+}
+
+.configurator__hexagon .MuiSvgIcon-root {
+  color: #181818;
+  padding-left: 5px;
+}
+
+.configurator__hexagon:hover .MuiSvgIcon-root {
+  color: white;
+  position: absolute;
+  z-index: 1;
+}
+
+.configurator__bottom {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  padding-top: 90px;
+  top: 253%;
+  left: 8%;
+}
+
+/* Hexagon icon */
+.configurator__hexagon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.5s;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  top: 50%;
+  left: 1%;
+  width: 45px;
+  height: 25px;
+  border: 2px solid transparent;
+  list-style: 80px;
+}
+
+.configurator__hexagon:before,
+.configurator__hexagon:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -2px;
+  left: -2px;
+  border: 2px solid #181818;
+  transform: rotate(0deg);
+  transition: 0.5s;
+}
+
+.configurator__hexagon {
+  border: 2px solid #181818;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.configurator__hexagon:before {
+  transform: rotate(120deg);
+  border: 2px solid #181818;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+.configurator__hexagon:after {
+  transform: rotate(-120deg);
+  border: 2px solid #181818;
+  border-top: 2px solid transparent;
+  border-bottom: 2px solid transparent;
+}
+
+.configurator__hexagon:hover,
+.configurator__hexagon:hover:before,
+.configurator__hexagon:hover:after {
+  position: absolute;
+  background: #181818;
+}
+
+.configurator__paragraph {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  position: relative;
+
+  right: 10%;
+}
+.configurator__paragraph > div {
+  padding-right: 50px;
+  cursor: pointer;
+}
+.configurator__paragraph > div > p {
+  font-weight: 500;
+  text-decoration: underline;
+}
+
+.configurator__paragraph > div > p:hover {
+  font-weight: 600;
+  text-decoration: underline;
+  color: white;
+  transition: 0.5s ease-out;
+}
+
+/* responsive design through media queries */
+
+@media only screen and (max-width: 1526px) {
+  .configurator__hexagon .MuiSvgIcon-root {
+    color: #181818;
+    padding-left: 5px;
+  }
+
+  .configurator__hexagon:hover .MuiSvgIcon-root {
+    color: white;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .configurator__bottom {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    padding-top: 90px;
+    top: 253%;
+    left: 8%;
+  }
+
+  /* Hexagon icon */
+  .configurator__hexagon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 60%;
+    left: 10%;
+    width: 45px;
+    height: 25px;
+    border: 2px solid transparent;
+    list-style: 80px;
+  }
+
+  .configurator__hexagon:before,
+  .configurator__hexagon:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    border: 2px solid #181818;
+    transform: rotate(0deg);
+    transition: 0.5s;
+  }
+
+  .configurator__hexagon {
+    border: 2px solid #181818;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+
+  .configurator__hexagon:before {
+    transform: rotate(120deg);
+    border: 2px solid #181818;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+  .configurator__hexagon:after {
+    transform: rotate(-120deg);
+    border: 2px solid #181818;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+
+  .configurator__hexagon:hover,
+  .configurator__hexagon:hover:before,
+  .configurator__hexagon:hover:after {
+    position: absolute;
+    background: #181818;
+  }
+
+  .configurator__paragraph {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+    position: relative;
+
+    left: 2%;
+  }
+  .configurator__paragraph > div {
+    padding-right: 50px;
+    cursor: pointer;
+  }
+  .configurator__paragraph > div > p {
+    font-weight: 500;
+    text-decoration: underline;
+  }
+
+  .configurator__paragraph > div > p:hover {
+    font-weight: 600;
+    text-decoration: underline;
+    color: white;
+    transition: 0.5s ease-out;
+  }
+}
+
+@media only screen and (max-width: 1026px) {
+  .configurator {
+    display: none;
+  }
+}

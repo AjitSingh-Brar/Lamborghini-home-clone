@@ -1,0 +1,12 @@
+.popupInfo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #181818;
+  color: white;
+  font-size: 13px;
+  position: fixed;
+  bottom: 0;
+  width: 100vw;
+  height: 4vh;
+}

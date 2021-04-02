@@ -8,6 +8,8 @@ import Header from "./components/Header";
 
 import BackgroundDiv from "./components/BackgroundDiv";
 import Model from "./components/Model";
+import Configurator from "./components/Configurator";
+import PopupInfo from "./components/PopupInfo";
 // import selectName from "./features/counter/userSlice";
 
 function App() {
@@ -33,6 +35,8 @@ function App() {
       {/* <BodyImage /> */}
       <BackgroundDiv />
       <Model />
+      <Configurator />
+      <PopupInfo />
     </div>
   );
 }
