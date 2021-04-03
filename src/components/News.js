@@ -25,7 +25,7 @@ function News() {
         </div>
       </div>
 
-      <div class="news__middleDesc">
+      <div className="news__middleDesc">
         <div className="news__middleTop">
           <h3>Huracán EVO and Amazon Alexa: Towards the Future of Mobility</h3>
           <p>
@@ -40,8 +40,6 @@ function News() {
           <div>Read More</div>
         </div>
       </div>
-
-      {/* https://i.gaw.to/vehicles/photos/40/24/402400-2021-lamborghini-urus.jpg?640x400 */}
 
       <div className="news__bottomDiv1">
         <div className="news__bottomDivImage">

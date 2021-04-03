@@ -1,9 +1,8 @@
 .configurator {
   display: flex;
-  flex-direction: column;
   width: 100vw;
   height: 100vh;
-  background: url(https://www.lamborghinicalgary.com/wp-content/uploads/2021/02/IMG_7151EDIT.jpg);
+  background: url(https://images4.alphacoders.com/955/thumb-1920-955566.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -15,7 +14,7 @@
   font-size: 32px;
   font-weight: 600;
   position: relative;
-  top: 90%;
+  top: 20%;
   left: 11%;
 }
 
@@ -24,7 +23,7 @@
   font-size: 75px;
   font-family: Roboto, "Helvetica Neue", Arial;
   position: relative;
-  top: 90%;
+  top: 20%;
   left: 10%;
   width: 60%;
   line-height: 75px;
@@ -46,7 +45,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 90px;
-  top: 20%;
+  top: 35%;
   left: 13%;
 }
 
@@ -56,14 +55,15 @@
   align-items: center;
   justify-content: center;
   transition: 0.5s;
-  position: absolute;
+  position: relative;
   transform: translate(-50%, -50%);
-  top: 65%;
-  left: 1%;
+  top: 10%;
+  right: 1060px;
   width: 45px;
   height: 25px;
   border: 2px solid transparent;
   list-style: 80px;
+  cursor: pointer;
 }
 
 .configurator__hexagon:before,
@@ -106,8 +106,10 @@
 
 .configurator__paragraph {
   display: flex;
-
-  margin-top: 50px;
+  position: relative;
+  top: 15%;
+  right: 1080px;
+  margin-top: 70px;
 }
 .configurator__paragraph > div {
   padding-right: 50px;
@@ -115,28 +117,18 @@
 }
 .configurator__paragraph > div > p {
   font-weight: 500;
-  text-decoration: underline;
+  color: rgb(5, 5, 5);
+  transition: all 0.3s ease 0s;
 }
 
 .configurator__paragraph > div > p:hover {
   font-weight: 600;
-  text-decoration: underline;
-  color: white;
-  transition: 0.5s ease-out;
+  color: whitesmoke;
 }
 
 /* responsive design through media queries */
 
 @media only screen and (max-width: 1026px) {
-  .configurator {
-    display: flex;
-    width: 100vw;
-    height: 100vh;
-    background: url(https://www.lamborghinicalgary.com/wp-content/uploads/2021/02/IMG_7151EDIT.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-  }
   .configurator__hexagon .MuiSvgIcon-root {
     color: #181818;
     padding-left: 5px;
@@ -163,9 +155,9 @@
     align-items: center;
     justify-content: center;
     transition: 0.5s;
-    position: absolute;
+    position: relative;
     transform: translate(-50%, -50%);
-    top: 65%;
+    top: 10%;
     left: 10%;
     width: 45px;
     height: 25px;
@@ -234,12 +226,12 @@
     font-weight: 600;
     text-decoration: underline;
     color: white;
-    transition: 0.5s ease-out;
+    transition: all 0.3s ease 0s;
   }
 }
-/* 
-@media only screen and (max-width: 1226px) {
+
+@media only screen and (max-width: 1426px) {
   .configurator {
     display: none;
-   }
-  } */
+  }
+}

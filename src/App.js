@@ -13,32 +13,15 @@ import PopupInfo from "./components/PopupInfo";
 import Dealer from "./components/Dealer";
 import News from "./components/News";
 import Footer from "./components/Footer";
-// import selectName from "./features/counter/userSlice";
 
 function App() {
-  // const [input, setInput] = useState("");
-  // const dispatch = useDispatch();
-  // const name = useSelector(selectName);
-
-  // const changeName = () => {
-  //   dispatch(setName(input));
-  // };
   return (
     <div className="app">
-      {/* <input
-          type="text"
-          value={input}
-          onChange={(e) => setInput(e.target.value)}
-        />
-        <button onClick={changeName}>Update the text</button>
-
-        <h1>{name}</h1> */}
-
       <Header />
       <BackgroundDiv />
       <Model />
-      {/* <Configurator /> */}
-      {/* <Dealer /> */}
+      <Configurator />
+      <Dealer />
       <News />
       <Footer />
       <PopupInfo />

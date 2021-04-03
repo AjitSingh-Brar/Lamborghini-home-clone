@@ -7,7 +7,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  animation: slide 20s infinite;
+  animation: slide 25s infinite;
   animation-delay: 15s;
 }
 
@@ -16,18 +16,21 @@
     background: url(https://www.hdcarwallpapers.com/walls/mansory_lamborghini_urus_2020_5k-HD.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     animation-delay: 20s;
   }
   33% {
     background: url(https://images.wheels.ca/wp-content/uploads/2019/02/Lamborghini-Hurac%C3%A1n-EVO-Spyder-25.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     animation-delay: 20s;
   }
   67% {
     background: url(https://s.blogcdn.com/slideshows/images/slides/742/645/8/S7426458/slug/l/2019-lamborghini-aventador-svj-34-1.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     animation-delay: 20s;
   }
 }
@@ -69,11 +72,19 @@
   height: 40px;
   border: 2px solid transparent;
   list-style: 80px;
+  cursor: pointer;
 }
 
 .backgroundDiv__hexagon > .MuiSvgIcon-root {
   color: white;
   font-size: 20px;
+}
+
+.backgroundDiv__hexagon:hover > .MuiSvgIcon-root {
+  color: black;
+  font-size: 20px;
+  position: absolute;
+  z-index: 1;
 }
 
 .backgroundDiv__hexagon:before,
@@ -89,23 +100,28 @@
   transition: 0.5s;
 }
 
-.backgroundDiv__hexagon:hover {
+.backgroundDiv__hexagon {
   border: 2px solid #fff;
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
 }
 
-.backgroundDiv__hexagon:hover:before {
+.backgroundDiv__hexagon:before {
   transform: rotate(120deg);
   border: 2px solid #fff;
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
 }
-.backgroundDiv__hexagon:hover:after {
+.backgroundDiv__hexagon:after {
   transform: rotate(-120deg);
   border: 2px solid #fff;
   border-top: 2px solid transparent;
   border-bottom: 2px solid transparent;
+}
+.backgroundDiv__hexagon:hover,
+.backgroundDiv__hexagon:hover:before,
+.backgroundDiv__hexagon:hover:after {
+  background: white;
 }
 
 @media only screen and (max-width: 1026px) {

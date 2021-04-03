@@ -18,7 +18,7 @@ function Configurator() {
             <p>Aventador</p>
           </div>
           <div>
-            <p>Hurrcan</p>
+            <p>Huracán</p>
           </div>
           <div>
             <p>Urus</p>
