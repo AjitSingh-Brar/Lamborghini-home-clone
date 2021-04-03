@@ -1,10 +1,12 @@
 .configurator {
   display: flex;
-  width: 98.9vw;
+  flex-direction: column;
+  width: 100vw;
   height: 100vh;
-  background: url(https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/model_detail/augmented-reality/aventador/svj/11_17/ar_aventador_svj_m.png);
+  background: url(https://www.lamborghinicalgary.com/wp-content/uploads/2021/02/IMG_7151EDIT.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .configurator__top > h2 {
@@ -13,7 +15,7 @@
   font-size: 32px;
   font-weight: 600;
   position: relative;
-  top: 30%;
+  top: 90%;
   left: 11%;
 }
 
@@ -22,7 +24,7 @@
   font-size: 75px;
   font-family: Roboto, "Helvetica Neue", Arial;
   position: relative;
-  top: 30%;
+  top: 90%;
   left: 10%;
   width: 60%;
   line-height: 75px;
@@ -40,12 +42,12 @@
 }
 
 .configurator__bottom {
-  position: absolute;
+  position: relative;
   display: flex;
   flex-direction: column;
   padding-top: 90px;
-  top: 253%;
-  left: 8%;
+  top: 20%;
+  left: 13%;
 }
 
 /* Hexagon icon */
@@ -56,7 +58,7 @@
   transition: 0.5s;
   position: absolute;
   transform: translate(-50%, -50%);
-  top: 50%;
+  top: 65%;
   left: 1%;
   width: 45px;
   height: 25px;
@@ -104,11 +106,8 @@
 
 .configurator__paragraph {
   display: flex;
-  justify-content: space-between;
-  margin-top: 40px;
-  position: relative;
 
-  right: 10%;
+  margin-top: 50px;
 }
 .configurator__paragraph > div {
   padding-right: 50px;
@@ -128,7 +127,16 @@
 
 /* responsive design through media queries */
 
-@media only screen and (max-width: 1526px) {
+@media only screen and (max-width: 1026px) {
+  .configurator {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background: url(https://www.lamborghinicalgary.com/wp-content/uploads/2021/02/IMG_7151EDIT.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
   .configurator__hexagon .MuiSvgIcon-root {
     color: #181818;
     padding-left: 5px;
@@ -157,7 +165,7 @@
     transition: 0.5s;
     position: absolute;
     transform: translate(-50%, -50%);
-    top: 60%;
+    top: 65%;
     left: 10%;
     width: 45px;
     height: 25px;
@@ -229,9 +237,9 @@
     transition: 0.5s ease-out;
   }
 }
-
-@media only screen and (max-width: 1026px) {
+/* 
+@media only screen and (max-width: 1226px) {
   .configurator {
     display: none;
-  }
-}
+   }
+  } */

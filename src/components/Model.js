@@ -7,8 +7,6 @@ import AddIcon from "@material-ui/icons/Add";
 function Model() {
   return (
     <div className="model">
-      {/* <div className="model__middle"></div>
-      <div className="model__bottom"></div> */}
       <div className="model__parallelogramDiv"></div>
       <div className="model__parallelogramSide"></div>
       <div className="model__top">

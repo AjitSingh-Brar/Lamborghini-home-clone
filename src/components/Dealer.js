@@ -9,6 +9,7 @@ function Dealer() {
         <h2>Dealer Locater</h2>
         <h1>Find your country dealer</h1>
       </div>
+
       <div className="dealer__bottom">
         <div className="dealer__hexagon">
           <ArrowForwardIosIcon />

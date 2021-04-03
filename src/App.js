@@ -11,6 +11,7 @@ import Model from "./components/Model";
 import Configurator from "./components/Configurator";
 import PopupInfo from "./components/PopupInfo";
 import Dealer from "./components/Dealer";
+import News from "./components/News";
 // import selectName from "./features/counter/userSlice";
 
 function App() {
@@ -22,7 +23,7 @@ function App() {
   //   dispatch(setName(input));
   // };
   return (
-    <div className="App">
+    <div className="app">
       {/* <input
           type="text"
           value={input}
@@ -33,11 +34,11 @@ function App() {
         <h1>{name}</h1> */}
 
       <Header />
-      {/* <BodyImage /> */}
       <BackgroundDiv />
       <Model />
-      <Configurator />
-      <Dealer />
+      {/* <Configurator /> */}
+      {/* <Dealer /> */}
+      <News />
       <PopupInfo />
     </div>
   );

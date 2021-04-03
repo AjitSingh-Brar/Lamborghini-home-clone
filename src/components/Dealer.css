@@ -1,10 +1,12 @@
 .dealer {
   display: flex;
-  width: 98.9vw;
+  width: 100vw;
   height: 100vh;
-  background: url(https://theonlooker.net/wp-content/uploads/2017/05/Lamborghini_Launch__0006__GU38974.jpg);
+  flex-direction: column;
+  background: url(https://cdn.motor1.com/images/mgl/Mn0PE/s1/lamborghini-dubai-showroom.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
 }
 
 .dealer__top > h2 {
@@ -15,7 +17,7 @@
   line-height: 70px;
   font-family: Roboto, "Helvetica Neue", Arial;
   position: relative;
-  top: 35%;
+  top: 80%;
   left: 10%;
 }
 
@@ -27,7 +29,7 @@
   line-height: 65px;
   font-family: Roboto, "Helvetica Neue", Arial;
   position: relative;
-  top: 35%;
+  top: 80%;
   left: 10%;
 }
 
@@ -50,8 +52,8 @@
   transition: 0.5s;
   position: relative;
   transform: translate(-50%, -50%);
-  top: 70%;
-  right: 1000px;
+  top: 700%;
+  left: 13%;
   width: 45px;
   height: 25px;
   border: 2px solid transparent;
@@ -95,3 +97,69 @@
 .dealer__hexagon:hover:after {
   background: #fff;
 }
+/* 
+@media only screen and (max-width: 1026px) {
+  .dealer__hexagon .MuiSvgIcon-root {
+    color: #fff;
+    padding-left: 5px;
+  }
+
+  .dealer__hexagon:hover .MuiSvgIcon-root {
+    color: #181818;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .dealer__hexagon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+    position: relative;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    right: 615px;
+    width: 45px;
+    height: 25px;
+    border: 2px solid transparent;
+    list-style: 80px;
+  }
+
+  .dealer__hexagon:before,
+  .dealer__hexagon:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: -2px;
+    left: -2px;
+    border: 2px solid #fff;
+    transform: rotate(0deg);
+    transition: 0.5s;
+  }
+
+  .dealer__hexagon {
+    border: 2px solid #fff;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+
+  .dealer__hexagon:before {
+    transform: rotate(120deg);
+    border: 2px solid #fff;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+  .dealer__hexagon:after {
+    transform: rotate(-120deg);
+    border: 2px solid #fff;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+  }
+
+  .dealer__hexagon:hover,
+  .dealer__hexagon:hover:before,
+  .dealer__hexagon:hover:after {
+    background: #fff;
+  }
+} */
