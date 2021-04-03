@@ -6,7 +6,7 @@
   background: url(https://cdn.motor1.com/images/mgl/Mn0PE/s1/lamborghini-dubai-showroom.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center;
+  background-position: fixed;
 }
 
 .dealer__top > h2 {

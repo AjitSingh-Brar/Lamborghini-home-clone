@@ -67,11 +67,11 @@
   font-weight: 100;
   margin-bottom: 5px;
   align-items: center;
+  transition: all 0.5s ease 0s;
 }
 
 .header__rightIcons > .MuiSvgIcon-root:hover {
   color: #ffffff;
-  transition: color 0.35s ease-in-out;
 }
 
 @media only screen and (max-width: 1026px) {

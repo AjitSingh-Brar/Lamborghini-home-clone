@@ -1,6 +1,4 @@
 .news {
-  /* display: flex; */
-  /* flex-direction: column; */
   width: 70vw;
   height: 100vh;
   background-color: #fff;
@@ -189,7 +187,7 @@
 
 .news__bottomHead > h2 {
   text-transform: uppercase;
-
+  cursor: pointer;
   font-size: 30px;
   font-family: Roboto, "Helvetica Neue", Arial;
   margin-top: 12px;
@@ -275,6 +273,7 @@
 
 .news__bottomHeading > h2 {
   text-transform: uppercase;
+  cursor: pointer;
   font-size: 30px;
   font-family: Roboto, "Helvetica Neue", Arial;
   margin-top: 12px;

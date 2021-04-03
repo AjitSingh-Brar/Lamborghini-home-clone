@@ -1,0 +1,34 @@
+.footer {
+  display: flex;
+  width: 98.7vw;
+  height: 30vh;
+  padding: 10px;
+  background-color: #181818;
+  position: relative;
+  top: 1550px;
+  flex-wrap: wrap;
+}
+.footer__left {
+  flex: 0.7;
+  display: flex;
+  padding: 50px;
+}
+.footer__left > p {
+  padding-right: 30px;
+}
+.footer__left > p > a {
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+.footer__right {
+  flex: 0.3;
+  color: white;
+  display: flex;
+  padding: 50px;
+}
+.footer__right .MuiSvgIcon-root {
+  padding-right: 60px;
+  cursor: pointer;
+}

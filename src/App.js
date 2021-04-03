@@ -12,6 +12,7 @@ import Configurator from "./components/Configurator";
 import PopupInfo from "./components/PopupInfo";
 import Dealer from "./components/Dealer";
 import News from "./components/News";
+import Footer from "./components/Footer";
 // import selectName from "./features/counter/userSlice";
 
 function App() {
@@ -39,6 +40,7 @@ function App() {
       {/* <Configurator /> */}
       {/* <Dealer /> */}
       <News />
+      <Footer />
       <PopupInfo />
     </div>
   );
