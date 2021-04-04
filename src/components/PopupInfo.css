@@ -2,7 +2,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #181818;
+  background-color: rgba(0, 0, 0, 0.9);
   color: white;
   font-size: 13px;
   position: fixed;

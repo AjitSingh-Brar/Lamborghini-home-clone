@@ -20,7 +20,7 @@ function App() {
       <Header />
       <BackgroundDiv />
       <Model />
-      <Configurator />
+      {/* <Configurator /> */}
       <Dealer />
       <News />
       <Footer />

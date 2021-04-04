@@ -1,5 +1,6 @@
 .configurator {
   display: flex;
+  flex: 1;
   width: 100vw;
   height: 100vh;
   background: url(https://images4.alphacoders.com/955/thumb-1920-955566.jpg);
